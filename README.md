@@ -16,7 +16,7 @@ Clase JOptionPane de JAVA que pida precio, aplique 21% de IVA y saque 10% descue
         
 ```
 
-![Ejercicio5_Hoja2](https://repository-images.githubusercontent.com/541325491/d1b1723a-5bf6-4c99-89e2-30e9d88cb41d)
+![](https://repository-images.githubusercontent.com/541325491/c251182a-19fe-47a7-b482-e5c01839e8be)
 
 
 
