@@ -11,27 +11,23 @@
 import javax.swing.JOptionPane;
 public class Ejercicio5_Hoja2 {
     public static void main(String[] args) {
-        
-        String precio; 
-        int iva=21;
-        double valor; 
-        double precioIva;
-        double precioIvaDescontado;
-        double precioFinalPagar;
-        precio=JOptionPane.showInputDialog("🚀 Meter el precio: \n");
-        valor=Double.parseDouble(precio); 
-        System.out.printf("\n\t- El precio sin IVA es: %,.2f", valor);       
-        precioIva=valor*iva/100;
-        //System.out.printf("\n- el IVA sale: %,.2f", precioIva);      
-        System.out.printf("\n\t- El precio con el porcentaje del 21 de IVA es: %,.2f", valor+precioIva); 
        
-        /* ///////////////////////////////////////////
-                      🚀 process.. 95%
-        /////////////////////////////////////////// */
+        // declaracion y asignacion de variables:
+        String precio; // el precio se mete por user luego será String para un printf
+        int iva=21;
+        float valor;   // estos valores srán del tipo float (decimal pequeño)
+        float precioIva;
+        float precioIvaDescontado;
+        float precioFinalPagar;
         
-        //precioIvaDescontado=(valor+precioIva)*0.10;
-                //System.out.printf("\n elprecio Iva Descontado sale: %,.2f", precioIvaDescontado);
-        //precioFinalPagar=(precioIva+precioIvaDescontado);
-        //System.out.printf("\n\t- El precio despues de aplicar un porcentaje de 10 de descuento es: %,.2f", precioFinalPagar+"\n\n");   
+        // ENTRADA/ SALIDAS:
+        precio=JOptionPane.showInputDialog("🚀 Meter el precio: \n");
+        valor=Float.parseFloat(precio);  // aqui pasa el Striing a Float..
+        System.out.printf("\n\t- El precio sin IVA es: %,.2f", valor);  // sale con MASCARA (formateado)     
+        precioIva=valor+(valor*0.21f);  // sacando el 21% (*0.21)!!
+        System.out.printf("\n\t- El precio con el porcentaje del 21 de IVA es: %,.2f", precioIva); 
+        precioFinalPagar=precioIva-(precioIva*0.10f); // y saca el descuento
+        System.out.printf("\n\t- El precio despues de aplicar un porcentaje de 10 de descuento es: %,.2f \n\n",precioFinalPagar); 
+     
     }
 }
