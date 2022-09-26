@@ -1,7 +1,7 @@
 # EJERCICIO-5-Hoja-2
 Clase JOptionPane de JAVA que pida precio, aplique 21% de IVA y saque 10% descuento
 
-  ![EJERCICIO 5, Hoja 2](https://repository-images.githubusercontent.com/541325491/490a71c0-f610-4b80-ac80-8bfccda8b030)
+  ![EJERCICIO 5](https://repository-images.githubusercontent.com/541325491/83ebcef0-92be-44ae-8ecd-dd9e222024d6)
 
 ```java 
 
